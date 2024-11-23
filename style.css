@@ -5,6 +5,9 @@
 
 /* body */
 body{
+    background-color: white;
+    padding-left: 250px;
+    padding-top: 100px;
 }
 
 .main{
@@ -16,11 +19,12 @@ body{
 .miracle-1{
     background-color: papayawhip;
     font-size: large;
-    width: 150px;
-    height: 220px;
+    width: 170px;
+    height: 230px;
     display: block;
-    padding-left: 10px;
-    padding-top: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
+    border-radius: 5px;
 }
 
 .illustration-create-post{
@@ -40,7 +44,7 @@ body{
 .miracle-2{
     background-color: blueviolet;
     color: white;
-    width: 340px;
+    width: 380px;
     height: 200px;
     justify-items: center;
     border-radius: 5px;
@@ -74,6 +78,7 @@ body{
     padding-bottom: 30px;
     width: 150px;
     height: 350px;
+    border-radius: 5px;
 }
 
 .mimi-1{
@@ -100,16 +105,16 @@ body{
 .miracle-4{
     background-color: goldenrod;
     height: 300px;
-    width: 150px;
+    width: 170px;
     padding-left: 15px;
     padding-top: 20px;
     border-radius: 5px;
-
+    position: relative;
+    bottom: 120px;
 }
 
 .mimi-4{
     padding-bottom: 40px;
-
 }
 
 .illustration-ai-content{
@@ -120,15 +125,106 @@ body{
 .miracle-5{
     width: 170px;
     background-color: whitesmoke;
-
+    height: 195px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 190px;
 }
 
 .mimi-5{
-
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
 
 .illustration-multiple-platforms{
     width: 150px;
     height: 70px;
- 
+    padding-left: 20px;
+    /* padding-bottom: 10px; */
+}
+
+.miracle-6{
+    background-color: goldenrod;
+    width: 170px;
+    height: 195px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 190px;
+}
+
+.mimi-6{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.illustration-consistent-schedule2{
+    width: 140px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.main-2{
+    display: flex;
+    gap: 30px;
+}
+
+.miracle-7{
+    background-color: whitesmoke;
+    width: 160px;
+    height: 170px;
+    padding-left: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 290px;
+    left: 220px;
+}
+
+.mimi-7{
+    font-size: larger;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.miracle-7-p{
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.illustration-audience-growth{
+    width: 120px;
+    height: 50px;
+}
+
+.miracle-8{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: blueviolet;
+    width: 370px;
+    height: 170px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 290px;
+    left: 225px;
+}
+
+.mimi-8{
+    color: white;
+    font-size: larger;
+}
+
+.illustration-grow-followers{
+    height: 120px;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.main-3{
+    display: flex;
+    gap: 20px;
 }
